@@ -1,0 +1,25 @@
+<template name="photoDescription">
+  <div class="container">
+    <div class="row">
+      <p class="col-md-offset-4 col-md-4">
+        <img style="width:100%;margin-top: 15px;" src="{{check}}" alt="">
+      </p>
+    </div>
+    <br>
+    <form id="photoDescription" method="post">
+      <div class="row">
+        <div class="col-md-offset-4 col-md-4">
+          <p class="col-xs-12" style="padding-right:0px;padding-left:0px;">
+            <textarea style="margin-bottom:20px;" name="desc" class="form-control vert" rows="5" placeholder="description" type="text"></textarea>
+          </p>
+          <p class="col-xs-4"><input type="radio" name="choix" value="mauvais"> mauvais</p>
+          <p class="col-xs-4"><input type="radio" checked name="choix" value="bon"> bon</p>
+          <p class="col-xs-4"><input type="radio" name="choix" value="tres bon"> très bon</p>
+          <p class="col-xs-12" style="padding-right:0px;padding-left:0px;">
+            <button style="margin-top:20px;" class="form-control btn bleu ">envoyer</button>
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+</template>
