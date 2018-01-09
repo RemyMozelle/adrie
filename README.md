@@ -12,7 +12,7 @@ pour que vous puissiez voir les photos dans la parti admin et les stocké vous d
 
 ### Demarer l'application
 
-pour utiliser cette application vous devez avoir `meteor installer` que vouez pouvez télécharger [Meteor](http://meteor.com)
+pour utiliser cette application vous devez avoir `meteor`, vouez pouvez télécharger [Meteor](http://meteor.com)
 
 une fois le depot cloné
   - npm install
