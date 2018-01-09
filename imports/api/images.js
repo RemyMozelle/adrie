@@ -14,11 +14,10 @@ configImages = {
     return 'Please upload image, with size equal or less than 10MB';
   }
 };
-
 if (Meteor.isDevelopment) {
   configImages.storagePath = '/home/timoz974/app/sites/MONGODB/METEOR/test/adrie/public/uploads';
+  console.log(configImages.storagePath);
 }
-
 const Images = new FilesCollection(configImages, {
   collectionName: configImages.collectionName
 });
