@@ -2,6 +2,8 @@
 
 ## Documentation
 
+### Géolocalisation
+FireFox a quelque soucis de précision, utiliser plutôt google chrome.
 ### Uploads photo
 
 pour que vous puissiez voir les photos dans la parti admin et les stocké vous devez précisez l'adresse absolue pour celà 
